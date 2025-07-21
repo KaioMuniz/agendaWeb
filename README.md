@@ -1,10 +1,5 @@
 
 # **Agenda Web - Aplicação Completa de Gestão de Agenda**
-![image](https://github.com/user-attachments/assets/50b05493-885b-4fcf-8f0d-fa65bec97dc9)
-![image](https://github.com/user-attachments/assets/54450f53-1076-4fc6-a28c-6eb7bdb2e9f7)
-
-
-
 Bem-vindo ao **Agenda Web**, uma aplicação moderna e eficiente que permite o gerenciamento de compromissos e eventos de forma ágil e intuitiva. Este projeto é composto por três partes principais:
 
 1. **Frontend**: Desenvolvido em **Angular**, com uma interface interativa e responsiva.
@@ -16,6 +11,13 @@ Bem-vindo ao **Agenda Web**, uma aplicação moderna e eficiente que permite o g
 - **Frontend**: Uma aplicação Angular que permite ao usuário interagir com o sistema de agenda diretamente.
 - **Backend**: A API foi construída com Spring Boot e contém endpoints para criação, leitura, atualização e exclusão de compromissos.
 - **Banco de Dados**: Um banco de dados que armazena dados essenciais para o funcionamento da aplicação.
+
+---
+
+![image](https://github.com/user-attachments/assets/50b05493-885b-4fcf-8f0d-fa65bec97dc9)
+![image](https://github.com/user-attachments/assets/54450f53-1076-4fc6-a28c-6eb7bdb2e9f7)
+
+---
 
 ## Tecnologias Utilizadas
 
@@ -38,6 +40,7 @@ BackEnd : Disponível em **http://localhost:8081/**.
 Você pode usar as configurações padrão ou ajustar o arquivo `application.properties` para corresponder ao seu banco de dados.
 ![image](https://github.com/user-attachments/assets/8195160b-8ae9-4d1e-bb9a-cba1d1188efc)
 
+---
 
 ## Funcionalidades
 
@@ -67,3 +70,7 @@ Você pode usar as configurações padrão ou ajustar o arquivo `application.pro
 - **Frontend (Angular)**: [http://localhost:4200/](http://localhost:4200/)  
 - **Swagger UI (Backend)**: [http://localhost:8081/swagger-ui/index.html#](http://localhost:8081/swagger-ui/index.html#)
 
+
+
+👨‍💻 Autor
+Feito por Kaio Muniz durante o curso de Spring Boot Web Developer na COTI.
