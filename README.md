@@ -74,3 +74,14 @@ Você pode usar as configurações padrão ou ajustar o arquivo `application.pro
 
 👨‍💻 Autor
 Feito por Kaio Muniz durante o curso de Spring Boot Web Developer na COTI.
+
+
+---
+
+## Contato
+
+Para dúvidas ou sugestões, entre em contato:  
+- kkaioribeiro@gmail.com
+- https://www.linkedin.com/in/kaiomuniz/
+
+---
