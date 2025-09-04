@@ -1,5 +1,6 @@
 
 # **Agenda Web - Aplicação Completa de Gestão de Agenda**
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTZhYnZyNm56cG1kZ3FhMjZzNGptbHAzMWJ4eGM0N3Z2cmplZHB5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sAc0FGbH4gg62vIRuL/giphy.gif" alt="GIF do projeto" width="360">
 Bem-vindo ao **Agenda Web**, uma aplicação moderna e eficiente que permite o gerenciamento de compromissos e eventos de forma ágil e intuitiva. Este projeto é composto por três partes principais:
 
 1. **Frontend**: Desenvolvido em **Angular**, com uma interface interativa e responsiva.
