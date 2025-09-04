@@ -1,0 +1,34 @@
+<app-navbar />
+
+<div class="container mt-4">
+    <h3>Cadastrar Nova Tarefa</h3>
+    <p>Preencha os campos abaixo para adicionar uma nova tarefa à sua agenda.</p>
+    <hr />
+
+    <form>
+
+        <div class="mb-2">
+            <label for="nome" class="form-label">Nome da Tarefa</label>
+            <input type="text" id="nome" class="form-control" placeholder="Ex: Reunião com cliente">
+        </div>
+
+        <div class="mb-2">
+            <label for="descricao" class="form-label">Descrição</label>
+            <textarea id="descricao" class="form-control" rows="4" placeholder="Detalhes sobre a tarefa..."></textarea>
+        </div>
+
+        <div class="form-check mb-2">
+            <input type="checkbox" id="concluida" class="form-check-input">
+            <label class="form-check-label" for="concluida">Tarefa já concluída</label>
+        </div>
+
+        <div class="mb-3">
+            <label for="dataHora" class="form-label">Data e Hora</label>
+            <input type="datetime-local" id="dataHora" class="form-control">
+        </div>
+
+        <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-success">Cadastrar tarefa</button>
+        </div>
+    </form>
+</div>

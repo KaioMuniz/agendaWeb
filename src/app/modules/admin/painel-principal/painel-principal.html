@@ -1,0 +1,40 @@
+<app-navbar />
+
+<div class="container mt-4">
+    <div class="text-left">
+        <h2 class="mb-2">Bem-vindo ao Sistema de Agenda de Tarefas</h2>
+        <p class="text-muted">Gerencie suas tarefas diárias de forma simples e eficiente.</p>
+        <hr />
+    </div>
+
+    <!-- Sessão de Ações Rápidas -->
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cadastrar Nova Tarefa</h5>
+                    <p class="card-text">Adicione uma nova tarefa à sua agenda com prioridade e data definidas.</p>
+                    <a routerLink="/cadastrar-tarefa" class="btn btn-primary">Cadastrar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mt-4 mt-md-0">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Consultar Tarefas</h5>
+                    <p class="card-text">Veja todas as suas tarefas cadastradas e atualize seu progresso.</p>
+                    <a routerLink="/consultar-tarefa" class="btn btn-success">Consultar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mt-4 mt-md-0">
+            <blockquote class="blockquote text-secondary">
+                <p>"A produtividade não é uma coincidência. É o resultado de um compromisso com a excelência,
+                    planejamento inteligente e esforço focado."</p>
+            </blockquote>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,62 @@
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="card shadow p-2" style="width: 100%; max-width: 400px;">
+        <div class="card-body">
+            <div class="text-center mb-2">
+                <img src="https://www.cotiinformatica.com.br/imagens/logo-coti-informatica.svg" />
+            </div>
+            <h4 class="card-title text-center">Agenda de tarefas</h4>
+            <p class="text-center">Autenticação de usuário:</p>
+
+            <div class="text-center mb-2">
+                <div class="text-danger">
+                    <strong>{{mensagemErro()}}</strong>
+                </div>
+            </div>
+
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+                <div class="mb-2">
+                    <label class="form-label">E-mail de acesso:</label>
+                    <input type="email" formControlName="email" class="form-control" placeholder="Digite seu e-mail" required>
+                
+                    <div class="text-danger" *ngIf="form.get('email')?.touched">
+                        <div *ngIf="form.get('email')?.errors?.['required']">
+                            O campo <strong>E-mail</strong> é obrigatório!
+                        </div>
+                        <div *ngIf="form.get('email')?.errors?.['email']">
+                            O campo <strong>E-mail</strong> deve ser um e-mail válido!
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="mb-2">
+                    <label class="form-label">Senha de acesso:</label>
+                    <input type="password" formControlName="senha" class="form-control" placeholder="Digite sua senha" required>
+                
+                    <div class="text-danger" *ngIf="form.get('senha')?.touched">
+                        <div *ngIf="form.get('senha')?.errors?.['required']">
+                            O campo <strong>Senha</strong> é obrigatório!
+                        </div>
+                        <div *ngIf="form.get('senha')?.errors?.['minlength']">
+                            O campo <strong>Senha</strong> deve ter no mínimo 8 caracteres!
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="d-grid mb-2">
+                    <button type="submit" class="btn btn-primary"
+                        [disabled]="form.invalid">
+                        Entrar
+                    </button>
+                </div>
+                <div class="d-grid mb-2">
+                    <a routerLink="/login/criar-usuario" class="btn btn-light">
+                        Não possui conta? <strong>Cadastre-se aqui!</strong>
+                    </a>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>

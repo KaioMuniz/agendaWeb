@@ -1,0 +1,49 @@
+<app-navbar />
+
+<div class="container mt-4">
+    <h3>Consultar Tarefas</h3>
+    <p>Veja abaixo a lista de tarefas cadastradas. Você pode editar ou excluir cada uma delas.</p>
+    <hr />
+
+    <form class="row g-3 mb-4">
+
+        <div class="col-md-4">
+            <label for="dataInicio" class="form-label">Data Início</label>
+            <input type="date" id="dataInicio" class="form-control" name="dataInicio">
+        </div>
+
+        <div class="col-md-4">
+            <label for="dataFim" class="form-label">Data Fim</label>
+            <input type="date" id="dataFim" class="form-control" name="dataFim">
+        </div>
+
+        <div class="col-md-4 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary">Pesquisar tarefas</button>
+        </div>
+    </form>
+
+    <!-- Tabela -->
+    <table class="table table-striped table-hover mt-3">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Concluída</th>
+                <th>Data e Hora</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <button class="btn btn-sm btn-primary me-2">Editar</button>
+                    <button class="btn btn-sm btn-danger">Excluir</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
